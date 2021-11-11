@@ -1,24 +1,19 @@
 #include <iostream>
-using namespace std; 
-        int main()        
-         { 
-			 double tc;
-           cin >> tc;
-           {char c  ='F' ;
-			   double  tf = (tc-32)/1.8 ;
-             char f = 'C';                      
-             cout  <<  tc << c <<  "="  << tf;
-             ;
-             ;  
-             cout<<  f;
-             ;
-             ;
-             ;    
-             };
-             };
-
-             
-             
 
 
-/* ... */
+    
+      /*
+     {\}                               
+      {\}                                      {}            {}
+       {\}                                    {  }          {  }
+        {*/     using namespace std;         int/*_-_-_-_-_*/main()        
+         { /*^*^*^*^*//*/////..//*/ double tc;  /* O     O  */  {}
+          {cin /*//////////.....////*/ >> /* /// *    ^     * */tc;
+           {char c /*///////../////////////////// * *  * * */ ='F'
+             ;double  /* //////////////////////////////*/tf=tc;
+             char f = 'C';                      cout  <<   tc
+              <<    c/**/                        <<       /**/        
+             "="    /**/                        <<       /**/
+            tf;;;  cout<<                      f;;;;    };};;}
+
+

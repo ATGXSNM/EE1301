@@ -2,73 +2,75 @@
 
 using namespace std;
 
-int printRomanCharacters(  int val){
+string printRomanCharacters(int val){
+	string s;
+	
 	if(val >= 900 && val <= 999){
-		cout << "CM";
-		return val -900;
+		s += "CM";
+		val -= 900;
 	}
-	else if (val >= 500 && val <= 899){
-		cout << "D";
-		return val -500;
+	if (val >= 500 && val <= 899){
+		s += "D";
+		val -= 500;
 	}
-	else if (val >= 400 && val <= 499){
-		cout << "CD";
-		return val - 400;
+	if (val >= 400 && val <= 499){
+		s += "CD";
+		val -= 400;
 	}
-	else if(val >= 100 && val <= 399){
-		cout << "C";
-		return val - 100;
+	if(val >= 100 && val <= 399){
+		s += "C";
+		val -= 100;
 	}
-	else if(val >= 90 && val <= 99){
-		cout << "XC";
-		return val - 90;
+	if(val >= 90 && val <= 99){
+		s += "XC";
+		val -= 90;
 	}
-	else if(val >= 50 && val <= 89){
-		cout << "L";
-		return val - 50;
+	if(val >= 50 && val <= 89){
+		s += "L";
+		val -= 50;
 	}
-	else if(val >= 40 && val <= 49){
-		cout << "XL";
-		return val - 40;
+	if(val >= 40 && val <= 49){
+		s += "XL";
+		val -= 40;
 	}
-	else if(val >= 10 && val <= 39){
-		cout << "X";
-		return val - 10;
+	if(val >= 10 && val <= 39){
+		s += "X";
+		val -= 10;
 	}
-	else if(val == 9){
-		cout << "IX";
-		return 0;
+	if(val == 9){
+		s += "IX";
+		val -= 9;
 	}
-	else if(val >= 5 && val <= 8){
-		cout << "V";
-		return val - 5;
+	if(val >= 5 && val <= 8){
+		s += "V";
+		val -= 5;
 	}
-	else if(val == 4){
-		cout << "IV";
-		return 0;
+	if(val == 4){
+		s += "IV";
+		val -= 0;
 	}
-	else if(val >= 1 && val <= 43){
-		cout << "I";
-		return val - 1;
+	if(val >= 1 && val <= 43){
+		s += "I";
+		val -= 1;
 	}
-	else{
-		return 0;
-	}
+		return s;
 }
 	
 	int main(){
-		int num;
+		int val;
 		while(true){
 			cout<<"Enter an integer value from 1 to 999: ";
-			cin >> num;
+			cin >> val;
 			
-			if(num <= 0 || num > 999){
+			string s;
+			s = printRomanCharacters(val);
+			
+			if(s == ""){
 				cout << " Invalid input. " << endl;
 				break;
 			}
 			else{
-				while(num = printRomanCharacters(num));
-				cout << endl;
+				cout<<s<<endl;
 			}
 		}
 		cout << "Program terminated." << endl;
