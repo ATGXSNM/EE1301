@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<body>
+  <b> Home Monitoring Data: </b><br>
+    <span id="current_temp"></span><br>
+    <span id="desired_temp"></span><br>
+    <span id="mode"></span><br>
+    <span id="is_heat_on"></span><br>
+    <span id="is_fan_on"></span><br>
+    <span id="is_cool_on"></span><br>
+    <span id="tstamp"></span><br>
+
+    <button id="connectbutton" onclick="start()">Refresh Data</button>
+
+    <script type="text/javascript">
+
+    document.getElementById("current_temp").innerHTML = "Current Temperture:";
+    document.getElementById("desired_temp").innerHTML = "Desired Temperature:";
+    document.getElementById("mode").innerHTML = "Mode: (0=COOL, 1=OFF, 2=HEAT)";
+    document.getElementById("is_heat_on").innerHTML = "Heat On:";
+    document.getElementById("is_fan_on").innerHTML = "Fan On:";
+    document.getElementById("is_cool_on").innerHTML = "AC On:";
+    document.getElementById("tstamp").innerHTML ="Timestamp of last data";
+
+
+    function start(objButton) {
+
+        document.getElementById("current_temp").innerHTML = "Home Temperature: Waiting for data...";
+        document.getElementById("desired_temp").innerHTML = "Set Point: Waiting for data...";
+        document.getElementById("mode").innerHTML = "Mode: (0=COOL, 1=OFF, 2=HEAT)";
+        document.getElementById("is_heat_on").innerHTML = "Heat On: Waiting for data...";
+        document.getElementById("is_fan_on").innerHTML = "Fan On: Waiting for data...";
+        document.getElementById("is_cool_on").innerHTML = "AC On: Waiting for data...";
+        document.getElementById("tstamp").innerHTML ="Waiting for data...";
+        var deviceID = "YOUR ID GOES HERE";
+        var accessToken = "YOUR TOKEN GOES HERE";
+
+        var varName = "current_temp";
+        requestURL = "https://api.spark.io/v1/devices/" + deviceID + "/" + varName + "/?access_token=" + accessToken;
+        $.getJSON(requestURL, function(json) {
+                 document.getElementById("current_temp").innerHTML = "Home Temperature: <font color=\"red\">" + json.result + "&deg; F </font>";
+                 document.getElementById("tstamp").innerHTML = json.coreInfo.last_heard;
+                 });
+
+        var varName = "desired_temp";
+        requestURL = "https://api.spark.io/v1/devices/" + deviceID + "/" + varName + "/?access_token=" + accessToken;
+        $.getJSON(requestURL, function(json) {
+                 document.getElementById("desired_temp").innerHTML = "Set Point: <font color=\"red\">" + json.result + "&deg; F </font>";
+                 document.getElementById("tstamp").innerHTML = json.coreInfo.last_heard;
+                 });
+
+        var varName = "mode";
+        requestURL = "https://api.spark.io/v1/devices/" + deviceID + "/" + varName + "/?access_token=" + accessToken;
+        $.getJSON(requestURL, function(json) {
+                 document.getElementById("mode").innerHTML = "Mode: <font color=\"red\">" + json.result + " </font> (0=COOL, 1=OFF, 2=HEAT)";
+                 document.getElementById("tstamp").innerHTML = json.coreInfo.last_heard;
+                 });
+
+        var varName = "is_heat_on";
+        requestURL = "https://api.spark.io/v1/devices/" + deviceID + "/" + varName + "/?access_token=" + accessToken;
+        $.getJSON(requestURL, function(json) {
+                 document.getElementById("is_heat_on").innerHTML = "Heat On: <font color=\"red\">" + json.result + "</font>";
+                 document.getElementById("tstamp").innerHTML = json.coreInfo.last_heard;
+                 });
+
+        var varName = "is_fan_on";
+        requestURL = "https://api.spark.io/v1/devices/" + deviceID + "/" + varName + "/?access_token=" + accessToken;
+        $.getJSON(requestURL, function(json) {
+                 document.getElementById("is_fan_on").innerHTML = "Fan On: <font color=\"red\">" + json.result + "</font>";
+                 document.getElementById("tstamp").innerHTML = json.coreInfo.last_heard;
+                 });
+
+        var varName = "is_cool_on";
+        requestURL = "https://api.spark.io/v1/devices/" + deviceID + "/" + varName + "/?access_token=" + accessToken;
+        $.getJSON(requestURL, function(json) {
+                 document.getElementById("is_cool_on").innerHTML = "AC On: <font color=\"red\">" + json.result + "</font>";
+                 document.getElementById("tstamp").innerHTML = json.coreInfo.last_heard;
+                 });
+
+
+    }
+    </script>
+
+
+<br>
+<br>
+<form action="https://api.particle.io/v1/devices/YOUR ID GOES HERE/set_mode?access_token=YOUR TOKEN GOES HERE" method="POST">
+<b>Set Mode:</b><br>
+<input type="radio" name="args" value="0">Turn AC ON
+<br>
+<input type="radio" name="args" value="1">Turn everything OFF
+<br>
+<input type="radio" name="args" value="2">Turn Heat ON
+<br>
+<input type="submit" value="Set Mode">
+</form>
+
+<br>
+<br>
+<form action="https://api.particle.io/v1/devices/YOUR ID GOES HERE/set_temp?access_token=YOUR TOKEN GOES HERE" method="POST">
+<b>Set Temperature:</b><br>
+<input type="text" name="args" value="(50-90)"><br>
+<input type="submit" value="Set Temperature">
+</form>
+
+</body>
+</html>

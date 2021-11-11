@@ -122,3 +122,127 @@
 22 Sep 2019 21:14:15 GMT: findResource(com/sun/tools/javadoc/Main.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
 22 Sep 2019 21:14:15 GMT: Log 'PathClassLoader.txt' opened: 22 Sep 2019 21:14:15 GMT with name /home/feng0192/PathClassLoader.txt
 22 Sep 2019 21:14:15 GMT: Constructing PathClassLoader with parent jdk.internal.loader.ClassLoaders$AppClassLoader@1affbebc and path '[/usr/local/drjava/drjava.jar]'
+3 Dec 2019 23:03:35 GMT: Log 'PathClassLoader.txt' opened: 3 Dec 2019 23:03:35 GMT with name /home/feng0192/PathClassLoader.txt
+3 Dec 2019 23:03:35 GMT: Constructing PathClassLoader with parent edu.rice.cs.plt.reflect.ShadowingClassLoader@4ea8b05b and path '[/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]'
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.main.JavaCompiler) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/main/JavaCompiler.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.CompilationUnitTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/CompilationUnitTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.Tree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/Tree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.Symbol) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/Symbol.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.AnnoConstruct) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/AnnoConstruct.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.Symbol$ClassSymbol) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/Symbol$ClassSymbol.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.Symbol$TypeSymbol) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/Symbol$TypeSymbol.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.Symbol$CompletionFailure) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/Symbol$CompletionFailure.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.Symbol$PackageSymbol) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/Symbol$PackageSymbol.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.jvm.ClassReader$BadClassFile) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/jvm/ClassReader$BadClassFile.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.jvm.ClassReader$SourceCompleter) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/jvm/ClassReader$SourceCompleter.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.Abort) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/Abort.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.code.Source) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/code/Source.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.api.DiagnosticFormatter) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/api/DiagnosticFormatter.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.FatalError) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/FatalError.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.parser.Parser) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/parser/Parser.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.Log$DiagnosticHandler) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/Log$DiagnosticHandler.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.Log$DeferredDiagnosticHandler) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/Log$DeferredDiagnosticHandler.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.jvm.Target) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/jvm/Target.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.tree.JCTree$JCExpression) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/tree/JCTree$JCExpression.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.ExpressionTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/ExpressionTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.tree.JCTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/tree/JCTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.JCDiagnostic$DiagnosticPosition) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/JCDiagnostic$DiagnosticPosition.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.tree.JCTree$JCIdent) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/tree/JCTree$JCIdent.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.IdentifierTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/IdentifierTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.tree.JCTree$JCFieldAccess) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/tree/JCTree$JCFieldAccess.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.MemberSelectTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/MemberSelectTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.jvm.ClassWriter$PoolOverflow) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/jvm/ClassWriter$PoolOverflow.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.jvm.ClassWriter$StringOverflow) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/jvm/ClassWriter$StringOverflow.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.tree.JCTree$JCClassDecl) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/tree/JCTree$JCClassDecl.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.ClassTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/ClassTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.tree.StatementTree) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/tree/StatementTree.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.tree.JCTree$JCStatement) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/tree/JCTree$JCStatement.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.Context$Key) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/Context$Key.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.main.JavaCompiler$CompilePolicy) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/main/JavaCompiler$CompilePolicy.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.api.JavacTool) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/api/JavacTool.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.main.OptionHelper) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/main/OptionHelper.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.api.JavacTool$1) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/api/JavacTool$1.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.main.OptionHelper$GrumpyHelper) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/main/OptionHelper$GrumpyHelper.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.util.ClientCodeException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/util/ClientCodeException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.source.util.JavacTask) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/source/util/JavacTask.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.api.JavacTaskImpl) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/api/JavacTaskImpl.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javac.api.BasicJavacTask) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javac/api/BasicJavacTask.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: Constructing PathClassLoader with parent edu.rice.cs.plt.reflect.ShadowingClassLoader@4ea8b05b and path '[/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]'
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.VMDisconnectedException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/VMDisconnectedException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.VMMismatchException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/VMMismatchException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.AbsentInformationException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/AbsentInformationException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.Location) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/Location.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.Mirror) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/Mirror.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.ClassNotPreparedException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/ClassNotPreparedException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.request.EventRequest) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/request/EventRequest.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.ClassNotLoadedException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/ClassNotLoadedException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.IncompatibleThreadStateException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/IncompatibleThreadStateException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.ObjectReference) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/ObjectReference.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.Value) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/Value.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.ObjectCollectedException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/ObjectCollectedException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.InvalidTypeException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/InvalidTypeException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.InvocationException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/InvocationException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.jdi.InvalidStackFrameException) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/jdi/InvalidStackFrameException.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:35 GMT: Constructing PathClassLoader with parent edu.rice.cs.plt.reflect.ShadowingClassLoader@4ea8b05b and path '[/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]'
+3 Dec 2019 23:03:35 GMT: PathClassLoader.findClass(com.sun.tools.javadoc.Main) called
+3 Dec 2019 23:03:35 GMT: findResource(com/sun/tools/javadoc/Main.class) called; _path is [/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar]
+3 Dec 2019 23:03:36 GMT: Log 'PathClassLoader.txt' opened: 3 Dec 2019 23:03:36 GMT with name /home/feng0192/PathClassLoader.txt
+3 Dec 2019 23:03:36 GMT: Constructing PathClassLoader with parent jdk.internal.loader.ClassLoaders$AppClassLoader@1affbebc and path '[/usr/local/drjava/drjava.jar]'
