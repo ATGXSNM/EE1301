@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+bool isLeapYear(int year){
+	if((year%4==0 && year%100 != 0) || year%400 == 0){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+
+int main(){
+	int year;
+	char ch = 'y';
+	while(ch=='y'||ch=='Y'){
+		cout<<" Enter a year: ";
+		cin >> year;
+		if(isLeapYear(year)){
+			cout <<year<<" is a leap year. " <<endl;
+		}
+		else{
+			cout<<year<<" is not a leap year. " << endl;
+		}
+		cout<<"Continue?(y/n):";
+		cin >> ch;
+	}
+	return 0;
+}
